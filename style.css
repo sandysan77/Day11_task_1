@@ -1,0 +1,78 @@
+#form_border{
+
+    border: 1px solid black;
+    margin: 10px 200px;
+    padding: 8px;
+}
+
+label{
+    font-weight: bold;
+}
+
+#firstName{
+    width:25%;
+    height:20px;
+    margin-right: 10px;
+}
+
+#lastName{
+    width:25%;
+    height:20px;
+}
+
+#emailtext{
+    width: 435px;
+    height:20px;
+}
+
+td {
+    padding: 5px 10px;
+  }  
+
+#textarea{
+    margin-top: 15px;
+}
+
+#submit{
+    padding: 4px;
+    margin-top: 10px;
+}
+
+#firstlastName{
+    margin-bottom: 10px;
+}
+
+#yourexperience{
+    margin-top: 10px;
+}
+
+table{
+    margin: 20px 0px;
+
+}
+
+td{
+    width: 500px;
+    text-align: center;
+    
+
+}
+
+label[id*='Name']::after {content: "*"; color:red;} 
+
+label[id*='Email']::after {content: "*"; color:red;} 
+
+label[id*='yourex']::after {content: "*"; color:red;} 
+
+label[id*='howstat']::after {content: "*"; color:red;} 
+
+label[id*='HLA']::after {content: "*"; color:red;} 
+
+
+.checked {
+    color: orange;
+    width: 25px;
+    font-size: 25px;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}  
